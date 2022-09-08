@@ -1,7 +1,7 @@
 // MongoDB 
 const mongoose = require('mongoose');
 
-const db_link = 'mongodb+srv://admin:4InyfUCHY1GXF4YW@cluster0.6y6zc6y.mongodb.net/?retryWrites=true&w=majority';
+const db_link = 'MONGODB_LINK';
 mongoose.connect(db_link)
     .then(function (db) {
         console.log('Plan db connected')
